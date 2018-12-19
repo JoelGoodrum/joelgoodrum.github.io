@@ -6,48 +6,49 @@
 
 
 		body {
-
 			padding: 0;
 			margin: 0;
 			background-color: #222;
-
 		}
 
 		div {
+			padding: 5%;
 			width: 50%;
 			margin: auto;
 		}
+
+		div h2 {
+			text-align: center;
+		}
+
 		div img {
 			padding: 3px;
 		}
 
-		nav {
-			padding-top: 10px;
-			margin-top: -20px;
+		nav {	
+			padding:10px;
 			width: 100%;
 			background-color: #55d6cc;
 			border-bottom: #333 3px solid;
-
 		}
 
 		nav h2 {
-			
+			display: inline;	
 			font-family: Lato;
 			color: black;
 			text-transform: uppercase;
-
-
+		}
+		h1 {
+			padding: 50px;
 		}
 
 		.home-photo {
-
 			position: relative;
 			width: 100%;
 			height: auto;
 		}
 
-		.mug{
-
+		.mug {
 			height: 200px;
 			width: 200px;
 			position: relative;
@@ -56,7 +57,6 @@
 		}
 
 		h1, h2 {
-
 			text-align: center;
 			color: #55d6cc;
 			font-family: Helvetica;
@@ -66,7 +66,6 @@
 			line-height: 1.5;
 			font-family: Helvetica;
 			color: #55d6cc;
-
 		}
 		
 	</style>
@@ -77,8 +76,9 @@
 
 	<body>
 		<nav>
-			<h2>Bio | Projects | Contact</h2>
-			
+			<h2>Bio</h2> 
+			<h2>| Projects |</h2>
+			<h2>Contact</h2>
 		</nav>
 		
 		<title>Joel Goodrum</title>
@@ -87,7 +87,7 @@
 		
 			<img src='park.png' class='home-photo'>
 
-			<h1>Bio</h1>
+			<h1 style="padding-top: 100px;">Bio</h1>
 
 		<div id='bio'>
 
@@ -98,18 +98,21 @@
 
 			<h1>Projects</h1>
 
-			<h2>iPhone Lock Screen</h2>
+			
 
 		<div id='phone'>
+
+			<h2>iPhone Lock Screen</h2>
 
 			<p>This project, one can see the current time on the lock screen of an iPhone.I designed designed an iPhone using html and css. I used JavaScript to get input of date and time from the computer. The has a frame refressh rate at 10000 mili seconds.<p>
 			<img src='res/phone.jpg' alt="phone photo"> 
 
 		</div>	
 
-			<h2>CarApp</h2>
+			
 
 		<div id='car-app'>
+			<h2>CarApp</h2>
 	
 			<p>CarApp is a Java program which simulates a mobile app where the users get o navigate a list of cars in order to purchase a one. When the user clicks on the type of car, the page shows the options available for that type. The user then can click on a specific model. After the user clicked on a model, the details of the car will show up. All the elements in this program were programmed in Java.</p>
 
@@ -120,10 +123,11 @@
 
 		</div>
 
-			<h2>WizardRPG</h2>
+			
 
 		<div id='wizard-rpg'>
-			
+			<h2>WizardRPG</h2>
+
 			<p>In WizardRPG, one gets to strategically fight mistical creatures. The player and the opponent have health and magic points. The player can attack or deffend againts the opponent. The player must bring the opponents magic or healths points to zero in order to win</p>
 
 			<img src='#' alt='wizar rpg screen shots'>
