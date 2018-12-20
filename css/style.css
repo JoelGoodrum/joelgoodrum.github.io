@@ -6,7 +6,23 @@ body {
 	background-color: #222;
 }
 
+h1, h2 {
+	text-align: center;
+	color: #77f7ee;	
+	}
+
+p {
+	color: #55d6cc;	
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 .container{
+	padding: 5%;
 	width: 70%;
 	margin: auto;
 	overflow: hidden;
