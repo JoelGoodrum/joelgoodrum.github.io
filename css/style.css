@@ -40,7 +40,6 @@ ul {
 /* header */
 header {
 	background-color:#55d6cc;
-	color: white;
 	padding-top: 15px;
 	padding-bottom: 10px;
 	border-bottom: #222 3px solid;
@@ -64,8 +63,6 @@ header li{
 	display: inline;
 	padding: 2%;
 	
-
-
 }
 
 /* -- */
@@ -110,4 +107,19 @@ u {
 	display: block;
 }  
 
-@media(max-width: )
+@media(max-width: 768px) {
+
+	header {
+		background-color:#55d6cc;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: #222 3px solid;
+
+	}
+
+	header li {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+}
