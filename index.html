@@ -2,7 +2,8 @@
 
 <html>
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="lock-screen/phone-style.css">
 
 	<head>
 		<title>Joel Goodrum</title>
@@ -41,9 +42,21 @@
 			<h2>iPhone Lock Screen</h2>
 
 			<p>This project, one can see the current time on the lock screen of an iPhone.I designed designed an iPhone using html and css. I used JavaScript to get input of date and time from the computer. The has a frame refressh rate at 10000 mili seconds.<p>
-			<img src='res/phone.jpg' alt="phone photo" class="phoneimg"> 
+			
+			<!-- iphone -->
 
-		</div>	
+			<div class="iNotch">
+			</div>
+
+			<div class="iPhone">
+				<h2 id="iSecond"></h2>
+				<h1 id="iTime"></h1>
+				<p id="date"><p>
+			</div> 
+			<script src="lock-screen/script/phoneTime.js">
+			</script>
+
+			</div>	
 
 		<div id='car-app' class="container">
 			<h2>CarApp</h2>

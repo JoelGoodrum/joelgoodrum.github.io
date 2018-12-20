@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<style>
+
+		body {
+			background-color: #322;
+		}
+
+		.iPhone { 
+		    border-radius: 20px;
+		    border-style: solid; 
+		    width: 270px;
+		    height: 500px;
+		    margin: 50px auto;
+		    background: linear-gradient(135deg, #00FFFF, #FF0000);
+		    padding-top: 50px;
+
+ 		 }
+
+ 		   .iNotch {
+ 		 	height: 20px;
+ 		 	width: 160px;
+ 		 	border-radius: 6px;
+ 		 	background-color: #000;
+ 		 	position: absolute;
+ 		 	left: 50%;
+ 		 	margin-left: -80px;
+ 		 	
+ 		 	
+ 		 }
+
+ 		 #iTime {
+ 		 	text-align: center;
+ 		 	font-family: Helvetica;
+ 		 	color: white;
+ 		 	font-weight: 100;
+ 		 	letter-spacing: 1px;
+ 		 	font-size: 62px;
+ 		 	line-height: 10px;
+ 		 	font-width: 80%;
+ 		 }
+
+ 		 #iSecond {
+ 		 	position: absolute;
+			top: 35px;
+			left: 50%;
+			margin-left: 90px;
+  			
+  			font-size: 20px;
+ 		 	font-family: Helvetica;
+ 		 	color: white;
+ 		 	font-weight: 100;
+ 		 	letter-spacing: 1px; 	
+
+ 		 }
+
+ 		 #date{
+ 		 	position: absolute;
+ 		 	left: 50%;
+ 		 	margin-left: -55px;
+ 		 	top: 170px;
+
+ 		 	font-family: Helvetica;
+ 		 	color: white;
+ 		 	font-weight: 100;
+ 		 	letter-spacing: 1px;
+ 		 }
+
+	</style>
+<head>
+	<title>iPhone Clock</title>
+</head>
+<body>
+	<div class="iNotch">
+	</div>
+
+	<div class="iPhone">
+		<h2 id="iSecond"></h2>
+		<h1 id="iTime"></h1>
+		<p id="date"> December 17 <p>
+	</div>
+
+
+	<script src="script/phoneTime.js">
+	</script>
+	
+
+</body>
+</html>
