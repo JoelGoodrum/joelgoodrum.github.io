@@ -22,8 +22,9 @@ p {
 }
 
 .container{
-	padding: 7%;
-	width: 55%;
+	padding-top: 30px;
+	max-width: 700px;
+	width: 90%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -97,3 +98,12 @@ u {
     border-bottom: 3px solid red;
     border-radius: 3px;
   }
+
+.graphPhotos {
+	padding: 10px;
+	max-width: 500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}  
