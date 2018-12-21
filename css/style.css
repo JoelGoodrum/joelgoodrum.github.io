@@ -22,9 +22,8 @@ p {
 }
 
 .container{
-	padding-top: 30px;
+	padding-top:30px;
 	max-width: 680px;
-	width: 95%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -122,5 +121,9 @@ u {
 	ul {
 		font-size: 30px;
 		
+	}
+
+	.container {
+		width: 90%;
 	}
 }
