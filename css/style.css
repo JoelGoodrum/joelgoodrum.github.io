@@ -37,10 +37,9 @@ ul {
 	
 }
 
-/* header */
 header {
 	background-color:#55d6cc;
-	padding-top: 15px;
+	padding-top: 1px; 
 	padding-bottom: 10px;
 	border-bottom: #222 3px solid;
 
@@ -54,7 +53,7 @@ header a {
 	font-size: 16px;
 	
 }
-a:hover {
+header a:hover {
 	font-weight: bold;
 }
 
@@ -66,7 +65,6 @@ header li{
 	
 }
 
-/* -- */
 
 .home-photo {
 	position: relative;
@@ -107,6 +105,24 @@ h3 u {
 	margin-right: auto;
 	display: block;
 }  
+
+footer {
+	padding: 1px;
+	background-color: #55d6cc; 
+	text-align: center;
+
+}
+
+footer a {
+	color: #222;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+footer a:hover {
+	font-weight: bold;
+}
 
 @media(max-width: 665px) {
 
