@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-
-	font:15px/1.5 Arial, Helvetica, sans-serif;
+	font:15px/1.5 'Nunito',  sans-serif;
 	padding: 0;
 	margin: 0;
 	background-color: #222;
@@ -13,6 +13,7 @@ h1, h2 {
 
 p {
 	color: #55d6cc;	
+	font-family: 'Nunito', sans-serif;
 }
 
 
