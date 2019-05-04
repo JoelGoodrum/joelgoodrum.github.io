@@ -75,11 +75,9 @@ header li{
 }
 
 .mug {
-	height: 200px;
-	width: 200px;
+	width: 100%;
 	position: relative;
-	left: 50%;
-	margin-left: -100px;
+	
 }
 
 .photo-grid {
