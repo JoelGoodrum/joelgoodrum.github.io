@@ -50,9 +50,8 @@
  		 }
 
  		 #date{
- 		 	position: relative;
- 		 	left: 50%;
- 		 	margin-left: -55px;
+ 		 	text-align: center;
+ 		 	
  		 	
 
  		 	font-family: Helvetica;
