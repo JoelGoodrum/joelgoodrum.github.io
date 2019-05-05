@@ -3,8 +3,14 @@ body {
 	font:15px/1.5 'Nunito',  sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #222;
+	background-image:url(../res/studio.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
 }
+
+
 
 h1, h2 {
 	text-align: center;
@@ -16,6 +22,11 @@ p {
 	font-family: 'Nunito', sans-serif;
 }
 
+.headline {
+	width: 70%;
+	/*display: flex;
+	flex-direction: column;*/
+}
 
 
 .phoneimg {
@@ -25,11 +36,13 @@ p {
 }
 
 .container{
-	padding-top:30px;
+	padding:30px;
 	max-width: 680px;
 	width: 90%;
 	margin: auto;
 	overflow: hidden;
+	background-color: #222;
+	background-size:cover;
 }
 
 ul {
@@ -43,7 +56,7 @@ ul {
 header {
 	background-color:#55d6cc;
 	padding-top: 1px; 
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	border-bottom: #222 3px solid;
 
 }
@@ -145,6 +158,12 @@ a:hover {
 	.container {
 		width: 90%;
 	}
+
+	.headline h1{
+		width: 100%;
+		padding: 5%
+	}
+
 }
 
 @media(orientation: landscape) {
