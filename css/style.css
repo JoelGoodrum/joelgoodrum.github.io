@@ -36,9 +36,10 @@ p {
 }
 
 .container{
-	padding:30px;
+	
 	max-width: 680px;
-	width: 90%;
+	width: 100%;
+	
 	margin: auto;
 	overflow: hidden;
 	background-color: #222;
@@ -187,6 +188,6 @@ a:hover {
 	}
 
 	.container {
-		width: 90%;
+		width: 100%;
 	}
 }
