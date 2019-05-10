@@ -4,6 +4,11 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #222;
+
+}
+
+.headline {
+	/*margin-top: 1px*/;
 }
 
 h1, h2 {
@@ -25,11 +30,14 @@ p {
 }
 
 .container{
-	padding-top:30px;
+	
 	max-width: 680px;
 	width: 90%;
+
 	margin: auto;
 	overflow: hidden;
+	
+	
 }
 
 ul {
@@ -43,7 +51,7 @@ ul {
 header {
 	background-color:#55d6cc;
 	padding-top: 1px; 
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	border-bottom: #222 3px solid;
 
 }
@@ -145,6 +153,9 @@ a:hover {
 	.container {
 		width: 90%;
 	}
+
+	
+
 }
 
 @media(orientation: landscape) {
@@ -157,10 +168,8 @@ a:hover {
 
 	}
 
-}
 
 
-	
 
 	ul {
 		font-size: 30px;
