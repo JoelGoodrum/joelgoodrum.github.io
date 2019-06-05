@@ -35,10 +35,10 @@
  		 }
 
  		 #iSecond {
- 		 	z-index: 2;
+ 		 	z-index: 4;
  		 	position: relative;
- 		 	left: 108px;
- 		 	bottom: 70px;
+ 		 	left: 224px;
+ 		 	bottom: 52px;
 			
   			
   			font-size: 20px;
@@ -51,9 +51,6 @@
 
  		 #date{
  		 	text-align: center;
- 		 	
- 		 	
-
  		 	font-family: Helvetica;
  		 	color: white;
  		 	font-weight: 100;
