@@ -2,145 +2,317 @@
 
 <html>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css"> 
-	<link rel="stylesheet" href="lock-screen/phone-style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="lock-screen/phone-style.css">
+	<style type="text/css">
+		html, body {
+    		max-width: 100%;
+    		overflow-x: hidden;
+		}
+		.project{
+			
+			background-color:#BBB ;
+			border-radius: 5px;
+			padding: 10px;
+		}
+	</style>
 
 	<head>
 		<title>Joel Goodrum</title>
 		<a name="top"></a>
 	</head>
 		
-	<body>
+	<body style="background-color: #222">
 
 		<header>
-			<div>
-				<nav>
-					<ul>
-						<li><a href="#graphing-calc">graphing-calc</a></li>
-						<li><a href="#hospital-simulator">Hospital-Simulator</a></li>
-						<li><a href="#phone">Lock-Screen</a></li>
-						<li><a href="#car-app">Car-APP</a></li>
-						<li><a href="#wizard-rpg">Wizard-RPG</a></li>
-						<li><a href="#contact">Contact</a></li>		
+			
+			<nav class ="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a href="#" class="navbar-brand">Joel Goodurm | Software Engineer</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id=navbarMenu>
+
+					<ul class="navbar-nav ml-auto">	
+						<li class="nav-item">
+							<a class="nav-link"href="#summery">Summery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>		
 					</ul>
-				</nav>
-			</div>
+				</div>
+			</nav>
+			
 		</header>
 
 		<div class="headline">
 			<img src = "res/studio.jpg"; style="width: 100%">
-			<h1 style="position: relative;">Joel Goodrum | Software Developer<h1>
 		</div>
 		
-		<div id='bio' class="container" style="padding-top: 5%">
+		<div id='bio' class="container col-xs-12 col-sm-11 col-md-10 col-lg-9 col-xl-8" style="padding:10px" >
 
-			<h1>BIO</h1>
-			<p>Born in Brazil in a city called Londrina. Londrina means Little London. Since I was a young child, I loved playing video-games. My love for video games steered me towards being curious about computers. My first contact with programming was through a computer science course at Georgia State. In this course we learned how to manipulate data with Java. Recently, I have been working on software development with JavaScript, html and CSS. I have worked with a variety of tools outside of academia. Android Studio, a software I have used to code basic mobile applications in Java. Unity, a game engine where I had to code basic logic in C#. Blender, a game engine which I use mostly for 3d modeling. Photoshop,  a graphic design software where I have used to design logos. FL Studio, a music composition and editing software where I have composed instrumentals and edited sound effects. </p>
-			<img src='res/img for web.jpg' class='mug' alt='me'> 
-
-		</div>
-
-			<h1 style="text-align: center; padding: 5%;">PROJECTS</h1>
-
-		<div id='graphing-calc' class="container">
-			<h2>Graphing Calculator</h2>
-
-			<p>Software that allows user to input functions in the form y = x. The software outputs the y values and plots them on a graph. The software plots thousands of individual points giving the illusion that the graphs are curved or straight lines. This software plots precisely 14000 dots in less then half a second. Graphing Calculator was written in JavaFX using the JavaFX library.
-			</p>
-
-			<img class="graphPhotos" src='res/graphing_calc.gif' alt='graphing calc gif'>
-			
-
-		</div>	
-
-		</br>
-		</br>
-
-		<div id='hospital-simulator' class='container'>
-			<h2>Hospital Simulator</h2>
-			<p>Software that simulates patients checking in and out of a hospital. The software allows the user to add as many patients as needed to a priority queue. But there are only three operation rooms available. The patients will be allocated to the operation room based on when they checked in and by their assigned priority.</p>
-
-			<img class="graphPhotos" src='res/hospital_sim.gif' alt='HospitalSimulator gif'>
-		</div>
-
-		</br>
-		</br>
-		
-
-		<div id='phone' class="container">
-
-			<h2>iPhone Lock Screen</h2>
-
-			<p>This project, one can see the current time on the lock screen of an iPhone. I designed the phone using html and CSS. I used JavaScript to output the date and time from the computer. <p>
-			
-			<!-- iphone -->
-
-			<div class="iNotch">
+			<div class="row project" id="summery"  >
+				<div class="col-12">
+					<h1 align="center">Summery</h1>
+					<p>Rising junior at Georgia State University pursuing a bachelor’s degree in computer science. Major interests include developing software, object-oriented programing and games. Strongest programing language is Java. Have also worked with 3D modeling. The photo above was rendered in the Blender 3D engine.</p>
+				</div>
 			</div>
 
-			<div class="iPhone">
-				<h2 id="iSecond"></h2>
-				<h1 id="iTime"></h1>
-				<p id="date"><p>
-			</div> 
-			<script src="lock-screen/script/phoneTime.js">
-			</script>
+			</br>
+
+			<div class="row project" id="skills">
+				<div class="col-12" align="center">
+					<h1>Skils</h1>
+				</div>
+				<div class="col-lg-6 col-md-12" align="center">
+
+					<ul class="list-group">
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Java <span class="badge badge-warning badge-pill">★★★★★</span></li>
+						
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						JavaScript<span class="badge badge-success badge-pill">★★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						HTML<span class="badge badge-success badge-pill">★★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center mb-2">
+						CSS<span class="badge badge-success badge-pill">★★★</span></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-6 col-md-12" align="center">
+					<ul class="list-group">			
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Bootstrap<span class="badge badge-success badge-pill">★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Node.js<span class="badge badge-success badge-pill">★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						SQL<span class="badge badge-success badge-pill">★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Git<span class="badge badge-success badge-pill">★★★</span></li>
+
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						jQuery <span class="badge badge-success badge-pill">★★</span></li>
+					</ul>
+				</div>
+				
+
+			</div>				
+			
+			<br>
+
+			<div class="row project" id="projects" style="background-color: #EEE;" >
+				<div class="col-12" align="center">
+					<h1>Projects</h1>
+
+					<ul class="nav justify-content-center">
+					  <li class="nav-item">
+					    <a class="nav-link " href="#graphin-calc">Graphing-Calculator</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#Hospital-Queue">Hospital-Queue</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#lock-screen">Lock-Screen</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link " href="#CarApp" tabindex="-1">Car-App</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link " href="#WizardRPG" tabindex="-1">Wizard-RPG</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+
+			</br>
+
+			<div id="graphin-calc" class="row project" style="padding: 10px">
+				
+				<div class="col-lg-6 col-md-12 mb-4" >
+					<div style="background-color: #EEE; padding: 10px ">
+					
+					<h2>Graphing Calculator</h2>
+
+					<p>Software that allows user to input functions in the form y = x. The software outputs the y values and plots them on a graph. The software plots thousands of individual points giving the illusion that the graphs are curved or straight lines. This software plots precisely 14000 dots in less then half a second. Graphing Calculator was written in JavaFX using the JavaFX library.
+					</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12" align="center">
+
+					<img class="img-fluid" src='res/graphing_calc.gif' alt='graphing calc gif'>
+				</div>
+				
+				
 
 			</div>	
 
-		</br>
-		</br>
+			</br>
+			</br>
 
-		<div id='car-app' class="container">
-			<h2>CarApp</h2>
-	
-			<p>CarApp is a program where the user can navigate a list of cars. When the user clicks on the type of car, the page shows the options available for that type. The user then can click on a specific model. After the user clicked on a model, the details of the car will show up. CarApp runs only on computers. Everything was coded in pure Java.</p>
+			<div id='Hospital-Queue' class="row project">
 
-			<div style="display: grid; grid-template-columns:50% 50%;  ">
-				<img style="float:left;" class="photo-grid" src='res/CarApp1.jpg' alt="screen shots of CarApp">
-				<img style="float:left;" class="photo-grid" src='res/CarApp2.jpg' alt="screen shots of CarApp">
-				<img style="float:right;" class="photo-grid" src='res/CarApp3.jpg' alt="screen shots of CarApp">
-				<img style="float:right;" class="photo-grid" src='res/CarApp4.jpg' alt="screen shots of CarApp">
+				<div class="col-lg-6 col-md-12 mb-4">
+					<div style="background-color: #EEE; padding: 10px ">
+						<h2>Hospital Queue</h2>
+						<p>Software that simulates patients checking in and out of a hospital. The software allows the user to add as many patients as needed to a priority queue. But there are only three operation rooms available. The patients will be allocated to the operation room based on when they checked in and by their assigned priority.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12" align="center">
+
+					<img class="img-fluid" src='res/hospital_sim.gif' alt='HospitalSimulator gif'>
+				
+				</div>
+
+			</div>
+
+			</br>
+			</br>
+			
+			<div id='lock-screen' class="row project">
+
+				<div class="col-lg-6 col-md-12 mb-4">
+					<div id='phone' class="container">
+						<div style="background-color: #EEE; padding: 10px ">
+
+						<h2>iPhone Lock Screen</h2>
+
+						<p>This project, one can see the current time on the lock screen of an iPhone. I designed the phone using html and CSS. I used JavaScript to output the date and time from the computer. </p>
+						</div>
+					</div>
+				</div>
+
+					<!-- iphone -->
+
+					<div class="col-lg-6 col-md-12">
+				
+						<div class="iNotch">
+						</div>
+
+						<div class="iPhone">
+							<h2 id="iSecond"></h2>
+							<h1 id="iTime"></h1>
+						</br>
+							<p id="date"><p>
+						</div> 
+
+						<script src="lock-screen/script/phoneTime.js">
+						</script>
+
+					</div>
+
+						
+			</div>
+
+			</br>
+			</br>
+
+			<div id='CarApp' class="row project">
+
+				<div class="row">
+					<div class="col-12 mb-4">
+						<div style="background-color: #EEE; padding: 10px ">
+							<h2>CarApp</h2>
+
+							<p>CarApp is a program where the user can navigate a list of cars. When the user clicks on the type of car, the page shows the options available for that type. The user then can click on a specific model. After the user clicked on a model, the details of the car will show up. Program was written in Java using the JavaSwing library.</p>
+						</div>
+					</div>
+				</div>
+			
+
+				<div class="row" align="center">
+					<div class="col-12" align="center">
+
+						<img class="img-fluid mb-4" align="center" src='res/CarApp1.jpg' alt="screen shots of CarApp">
+						<img class="img-fluid mb-4" align="center" src='res/CarApp2.jpg' alt="screen shots of CarApp">
+					</div>
+
+					<div class="col-12" align="center">
+
+						<img class="img-fluid mb-4" align="center" src='res/CarApp3.jpg' alt="screen shots of CarApp">
+						<img class="img-fluid mb-4" align="center" src='res/CarApp4.jpg' alt="screen shots of CarApp">
+					</div>
+				</div>
+				
+
+			</div>
+
+			</br>
+			</br>
+
+			<div id='WizardRPG' class="row project">
+				<div class="row">
+					<div class="col-12">
+						<div style="background-color: #EEE; padding: 10px ">
+							<h2>WizardRPG</h2>
+
+							<p>In WizardRPG, one gets to strategically fight mystical creatures. All players have health and magic points. The player can attack or defend against his opponent. The opponent also has the options of defending or attacking. The player must bring the opponents magic or health points to zero in order to win. This game was programmed in html, CSS and JavaScript.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12">
+						<img src='res/wizard1.jpg' alt='wizar rpg screen shots' class="mb-1 img-fluid">
+						<img src='res/wizard2.jpg' alt='wizar rpg screen shots' class="mb-1 img-fluid">
+						<img src='res/wizard3.jpg' alt='wizar rpg screen shots' class="mb-1 img-fluid">
+					</div>
+				</div>
+
 			</div>
 
 		</div>
-
-		</br>
 		</br>
 
-		<div id='wizard-rpg' class="container">
-			<h2>WizardRPG</h2>
+		<div style="background: #444; text-align: center;" id="contact">
 
-			<p>In WizardRPG, one gets to strategically fight mystical creatures. All players have health and magic points. The player can attack or defend against his opponent. The opponent also has the options of defending or attacking. The player must bring the opponents magic or health points to zero in order to win. This game was programmed in html, CSS and JavaScript.</p>
+			<h3 style="color: red">contact</h3>
 
-			<img style="width:100%;" src='res/wizard1.jpg' alt='wizar rpg screen shots'>
-			<img style="width:100%;" src='res/wizard2.jpg' alt='wizar rpg screen shots'>
-			<img style="width:100%;" src='res/wizard3.jpg' alt='wizar rpg screen shots'>
 
+			<p style="text-align: center;" ><a href="res/resume.pdf" target="_blank" style="text-decoration: none; color: white;"><u>resume</u></a></p>
+		
+			<p style="text-align: center;" ><a href="https://github.com/JoelGoodrum" target="_blank" style="text-decoration: none; color: white;"><u>https://github.com/JoelGoodrum</u></a></p>
+
+
+			<p style="text-align: center; text-decoration: none; color: white;">
+			email: joelgoodrum@hotmail.com</p>
+
+			<p style="text-align: center; text-decoration: none; color: white;">
+			phone: 404-707-5912</p>
+
+		
+		
+
+		
+			<footer>
+				<div class="text-center" style="padding: 10px; background-color: #AAA">
+					<a href="#top" style="color: #000"> to the top </a>
+				</div>
+				
+			</footer>
 		</div>
-
-		<div id='contact'>
-
-				<h3><u>contact</u></h2>
-
-
-				<p style="text-align: center;" ><a href="res/resume.pdf" target="_blank" style="text-decoration: none; color: white;"><u>resume</u></a></p>
-			
-				<p style="text-align: center;" ><a href="https://github.com/JoelGoodrum" target="_blank" style="text-decoration: none; color: white;"><u>https://github.com/JoelGoodrum</u></a></p>
-
-
-				<p style="text-align: center; text-decoration: none; color: white;">
-				email: joelgoodrum@hotmail.com</p>
-
-				<p style="text-align: center; text-decoration: none; color: white;">
-				phone: 404-707-5912</p>
-
-		</div>
-
-		<footer>
-			<p><a href="#top"> to the top </a></p>
-		</footer>
 
 	</body>
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </html>
