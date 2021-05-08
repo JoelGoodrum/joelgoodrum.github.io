@@ -28,7 +28,7 @@
 
 		<header>
 			
-			<nav class ="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class ="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 				<a href="#" class="navbar-brand">Joel Goodurm</a>
 				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
 					<span class="navbar-toggler-icon"></span>
@@ -38,19 +38,16 @@
 					<ul class="navbar-nav ml-auto">	
 		
 						<li class="nav-item">
-							<a class="nav-link" href="#skills">Skills</a>
+							<a class="nav-link" href="#zeldac">ZeldaC</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">ZeldaC</a>
+							<a class="nav-link" href="#papertech">Papaertech</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">Papaertech</a>
+							<a class="nav-link" href="#graphingcalc">GraphingCalc</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">GraphingCalc</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">HospitalQueue</a>
+							<a class="nav-link" href="#hospital">HospitalQueue</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contact</a>
@@ -70,13 +67,20 @@
 			<div class="row frontPage" >
 
 				<div class="col-lg-6 col-md-12">
-					<h1 style="color: #03045e; font-size:50px">Joel Goodrum</h1>
+
+					<h1 style="color: #03045e; font-size:60px">Joel Goodrum</h1>
+					<h2 style="color: #2a9d8f; font-size:30px">Hi! I am a Software Developer. Feel free to scroll down and check out some of my favorite projects!</h2></br></br></br>
+					<h4 style="color: #e76f51"> Web</h4>
+					<h4 style="color: #e76f51"> Apps</h4>
+					<h4 style="color: #e76f51"> Games</h4>
+						<!--
 						<ul style="font-size: 25px">
 							<li>Software Developer</li>
 							<li>Pursuing a BS in Computer Science</li>
 							<li>GSU Senior</li>
 							<li>Graduate fall 2021</li>
 						</ul>
+						-->
 				</div>
 
 				<div class="col-lg-6 col-md-12">
@@ -155,27 +159,22 @@
 
 
 
-		<div  class="container col-xs-12 col-sm-11 col-md-10 col-lg-9 col-xl-8" >
+		<div  class="container col-xs-12 col-sm-11 col-md-10 col-lg-9 col-xl-8" style="padding: 10px">
 			</br>
-			<h2 align="center">ZeldaC</h2>
+			<h2 align="center" id="zeldac">ZeldaC</h2>
 
-				<p style="font-size: 22px" align="center" >A 2D RPG that simulates a generic Zelda game from the gameboy era.</p>
-				<ul style="font-size: 18px" >
-					<li>Developed game logic for 2D Zelda style game in C.</li>
-					<li>Created game rendering functions with SDL library.</li>
-					<li>Created updating functions to constantly monitor game variables</li>
-					<li>Designed player tracking system for enemies to follow.</li>
-					<li>Managed sprites to animate character according to buttons being pressed.</li>
-				</ul>
+			</br>
+
 
 			<div  align="center" >
-				<img src="res/ZeldaGif.gif" style="width: 100%; padding: 10px">
+				<img src="res/ZeldaGif.gif" style="width: 100%;">
 			</div>
+			</br>
+			<p style="font-size: 22px; color: #2a9d8f" >A 2D RPG that simulates a generic Zelda game from the Game Boy era. Developed game logic for 2D Zelda style game in C. Created game rendering functions with SDL library. Designed player tracking system for enemies to follow. Managed sprites to animate character according to buttons being pressed.
+			</p>
 			</br>
 
 		</div>
-
-
 
 		<div style="background-color: #48bfe3;" >
 
@@ -186,7 +185,7 @@
 				</br>
 				<div class="row">
 					<div class="col">
-						<h2 style="text-align: center;"><img src="res/pencil_logo.png" width="50">Papertech</h2>
+						<h2 style="text-align: center;"><img src="res/pencil_logo.png" width="50" id="papertech">Papertech</h2>
 					</div>
 				</div>
 				</br>
@@ -228,7 +227,7 @@
 					</div>
 
 					<div  class="col-lg-6 col-md-12" align="center" >
-						<img src="res/papertech.gif" style="width: 70%; padding: 10px">
+						<img src="res/papertech.gif" style="width: 80%; padding: 10px">
 					</div>
 				</div>
 
@@ -237,7 +236,6 @@
 			</br>
 			</br>
 			
-
 
 		</div>
 
@@ -253,9 +251,9 @@
 					<div class="col-lg-6 col-md-12 mb-4" >
 						<div style="padding: 10px ">
 						
-						<h2>Graphing Calculator</h2>
+						<h2 id="graphingcalc">Graphing Calculator</h2>
 
-						<p>Software that allows user to input functions in the form y = x. The software outputs the y values and plots them on a graph. The software plots thousands of individual points giving the illusion that the graphs are curved or straight lines. This software plots precisely 14000 dots in less then half a second. Graphing Calculator was written in JavaFX using the JavaFX library.
+						<p>Software that allows user to input functions in the form y = x. Graphing Calculator outputs the y values and plots them on a graph. This software plots thousands of individual points giving the illusion of curved or straight lines. Graphing Calculator was written in JavaFX using the JavaFX library.
 						</p>
 						</div>
 					</div>
@@ -263,12 +261,9 @@
 					<div class="col-lg-6 col-md-12" align="center">
 
 						<img class="img-fluid" src='res/graphing_calc.gif' alt='graphing calc gif' style="width: 80%; padding: 10px">
-					</div>
-					
-					
+					</div>		
 
 				</div>	
-
 
 				</br>
 				</br>
@@ -284,7 +279,7 @@
 
 					<div class="col-lg-6 col-md-12 mb-4">
 						<div style=" padding: 10px ">
-							<h2>Hospital Queue</h2>
+							<h2 id="hospital">Hospital Queue</h2>
 							<p>JavaFX Software that simulates patients checking in and out of a hospital. The software allows the user to add as many patients as needed to a priority queue. But there are only three operation rooms available. The patients will be allocated to the operation room based on when they checked in and by their assigned priority.</p>
 						</div>
 					</div>
@@ -308,19 +303,31 @@
 		
 			<footer style="background-color: #222 ">
 				</br>
-				<h3 style="color: red;text-align: center;">contact</h3>
+				<div class="container col-xl-3 col-lg-4 col-md-6">
+					<h3 style="color: red; text-align: center;" id="contact">contact</h3>
 
 
-				<p style="text-align: center;" ><a href="res/resume.pdf" target="_blank" style="text-decoration: none; color: white;"><u>resume</u></a></p>
-			
-				<p style="text-align: center;" ><a href="https://github.com/JoelGoodrum" target="_blank" style="text-decoration: none; color: white;"><u>https://github.com/JoelGoodrum</u></a></p>
+					<p>
+						<img class="img-fluid" src='res/resume.png' style="width:20px; filter: invert(1);">
+						<a href="res/resume.pdf" target="_blank" style="text-decoration: none; color: white;"><u>resume</u></a>
+					</p>
+				
+					<p>
+						<img class="img-fluid" src='res/github.png' style="width:20px;">
+						<a href="https://github.com/JoelGoodrum" target="_blank" style="text-decoration: none; color: white;"><u>https://github.com/JoelGoodrum</u></a>
+					</p>
 
 
-				<p style="text-align: center; text-decoration: none; color: white;">
-				email: joelgoodrum@hotmail.com</p>
+					<p style="text-decoration: none; color: white;">
+						<img class="img-fluid" src='res/email.png' style="width:20px; filter: invert(1);">
+						joelgoodrum@hotmail.com
+					</p>
 
-				<p style="text-align: center; text-decoration: none; color: white;">
-				phone: 404-707-5912</p>
+					<p style="text-decoration: none; color: white;">
+						<img class="img-fluid" src='res/phone.png' style="width:20px; filter: invert(1);">
+					    404-707-5912
+					</p>
+				</div>
 
 				</br>
 
